@@ -43,7 +43,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</insert>
 	
 	<!-- 通过ID获取用户对象 -->
-	<select id="findByid" resultType="User">
+	<select id="findById" resultType="User">
 		select u.*,r.roleName AS userRoleName 
 		from smbms_user u,	smbms_role r 
 		where u.userRole=r.id AND u.id=#{id} 

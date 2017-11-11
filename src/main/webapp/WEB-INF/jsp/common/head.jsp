@@ -34,7 +34,7 @@
               <li><a href="${pageContext.request.contextPath }/provider.html">供应商管理</a></li>
               <li><a href="${pageContext.request.contextPath }/user.html">用户管理</a></li>
               <li><a href="${pageContext.request.contextPath }/pwdmodify.html">密码修改</a></li>
-              <li><a href="${pageContext.request.contextPath }/out.html">退出系统</a></li>
+              <li><a href="${pageContext.request.contextPath }/login.html">退出系统</a></li>
              </ul>
          </nav> 
      </div>
